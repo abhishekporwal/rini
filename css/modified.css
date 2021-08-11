@@ -1,0 +1,10 @@
+.logo img {
+	max-width: 150px;
+}
+
+.header_left_buttons {
+	white-space: nowrap;
+	padding: 0 15px;
+	text-align: left;
+	overflow: visible;
+}

@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto:300,300i,400,500,700");
+/*@import url("https://fonts.googleapis.com/css?family=Roboto:300,300i,400,500,700");*/
 /**
 *** Table Of Contents
 *
@@ -1809,7 +1809,7 @@ html {
 }
 
 body {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Times New Roman', serif;
 	font-size: 16px;
 	font-weight: 300;
 	line-height: 24px;
@@ -1913,9 +1913,9 @@ blockquote h5 + p {
 
 blockquote img {
 	display: block;
-	max-width: 120px;
+	/*max-width: 120px;*/
 	margin: 0 auto 30px;
-	border-radius: 50%;
+	/*border-radius: 50%;*/
 }
 
 blockquote .item-meta {
@@ -1951,7 +1951,7 @@ blockquote.with_border > img {
 }
 
 img, figure {
-	max-width: 100%;
+	/*max-width: 100%;*/
 	height: auto;
 }
 
@@ -7912,7 +7912,7 @@ body.active-side-header.slide-right .page_header_side {
 */
 .ls {
 	background-color: #ffffff;
-	color: #919899;
+	color: #666666;
 }
 
 .ls h1,
@@ -9691,7 +9691,9 @@ body.active-side-header.slide-right .page_header_side {
 }
 
 .page_toplogo .teaser h4,
-.page_toplogo .small-teaser h4 {
+.page_toplogo .teaser h5,
+.page_toplogo .small-teaser h4,
+.page_toplogo .small-teaser h5 {
 	margin-bottom: 0;
 }
 

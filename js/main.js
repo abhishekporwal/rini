@@ -861,10 +861,10 @@ function windowLoadInit() {
 			var $carousel = jQuery(this);
 			var data = $carousel.data();
 
-			var loop = data.loop ? data.loop : false;
+			var loop = data.loop ? data.loop : true;
 			var margin = (data.margin || data.margin === 0) ? data.margin : 30;
 			var nav = data.nav ? data.nav : false;
-			var dots = data.dots ? data.dots : false;
+			var dots = data.dots ? data.dots : true;
 			var themeClass = data.themeclass ? data.themeclass : 'owl-theme';
 			var center = data.center ? data.center : false;
 			var items = data.items ? data.items : 4;

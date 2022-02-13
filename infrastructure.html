@@ -27,6 +27,15 @@
 		<script src="js/vendor/respond.min.js"></script>
 		<script src="js/vendor/jquery-1.12.4.min.js"></script>
 	<![endif]-->
+
+	<style type="text/css">
+		@media (min-width: 767px) {
+			.alignImg {
+				display: flex;
+				align-items: center;
+			}
+		}
+	</style>
 </head>
 
 <body>
@@ -162,8 +171,8 @@
 				<!-- <div style="height: 350px;overflow: hidden;filter: blur(4px);background: url(images/infraBanner.jpg) no-repeat;background-position: bottom;background-size: cover;">
 				</div> -->
 				<div class="container">
-					<div class="row">
-						<div class="col-xs-12 col-sm-6 text-left" style="margin: 40px 0;">
+					<div class="row alignImg">
+						<div class="col-xs-12 col-sm-6 text-left">
 							<p>Manufacturing Facility is located in the Industrial Area of Indore . Facility is designed as per International Regulatory Standards.</p>
 
 							<p><b>Quality Control Lab</b></p>
@@ -219,19 +228,6 @@
 	<!-- eof #canvas -->
 	<script src="js/compressed.js"></script>
 	<script src="js/main.js"></script>
-	<script type="text/javascript">
-	    // Selecting the iframe element
-	    var iframe1 = document.getElementById("frame1");
-	    var iframe2 = document.getElementById("frame2");
-	    
-	    // Adjusting the iframe height onload event
-	    iframe1.onload = function(){
-	        iframe1.style.height = iframe1.contentWindow.document.body.scrollHeight + 'px';
-	    }
-	    iframe2.onload = function(){
-	        iframe2.style.height = iframe2.contentWindow.document.body.scrollHeight + 'px';
-	    }
-	</script>
 </body>
 
 </html>
